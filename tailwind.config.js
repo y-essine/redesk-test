@@ -22,7 +22,8 @@ module.exports = {
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
-      bebas: ['Bebas Neue', 'sans-serif']
+      bebas: ['Bebas Neue', 'sans-serif'],
+      piazzolla: ['Piazzolla', 'sans-serif']
     }
   },
   plugins: [require('@tailwindcss/line-clamp')],

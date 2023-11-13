@@ -1,7 +1,15 @@
 <template>
-  <div class="w-full py-10 flex justify-center">
-    <span class="font-semibold">Home</span>
+  <div class="w-full px-6 flex justify-center">
+    <Showcase />
   </div>
 </template>
 
-<script></script>
+<script>
+import Showcase from "@/components/homepage/Showcase.vue";
+
+export default {
+  components: {
+    Showcase,
+  },
+};
+</script>

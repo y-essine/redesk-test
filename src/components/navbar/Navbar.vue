@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="w-screen h-20 bg-zinc-100 border-b border-b-zinc-200 flex justify-center"
-  >
+  <div class="w-screen h-20 bg-zinc-100 flex justify-center">
     <div class="w-[1280px] h-full flex items-center justify-between px-4">
       <Logo />
       <div
@@ -30,7 +28,10 @@
             <div
               class="hover:cursor-pointer text-slate-600 hover:text-slate-900 hover:scale-105 duration-200"
             >
-              <vue-feather type="shopping-cart" class="h-6 w-6" />
+              <div class="relative">
+                <Badge />
+                <vue-feather type="shopping-cart" class="h-6 w-6" />
+              </div>
             </div>
           </template>
           <template #body>
@@ -60,6 +61,7 @@ import Logo from "@/components/navbar/Logo.vue";
 // import NavbarItem from "@/components/navbar/NavbarItem.vue";
 import Dropdown from "@/components/dropdown/Dropdown.vue";
 import IconDropdown from "@/components/dropdown/IconDropdown.vue";
+import Badge from "@/components/Badge.vue";
 
 import { items } from "@/helpers/navbar";
 
@@ -70,6 +72,7 @@ export default {
     // NavbarItem,
     Dropdown,
     IconDropdown,
+    Badge,
     Menu,
     MenuButton,
     MenuItems,
