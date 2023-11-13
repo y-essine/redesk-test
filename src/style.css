@@ -3,11 +3,10 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-tertiary text-primary-t;
+  @apply bg-zinc-100 text-zinc-900 font-inter;
 
   overflow-y: overlay;
   overflow-x: hidden;
-  font-family: "inter", sans-serif;
 }
 
 ::-webkit-scrollbar {

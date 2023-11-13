@@ -1,15 +1,15 @@
 <template>
-  <div class="w-full flex flex-col items-center">
-    <div class="p-12 bg-red-400 rounded-md shadow-lg">
-      <span class="font-semibold text-xl text-white">Home</span>
-    </div>
+  <div class="w-full px-6 flex justify-center">
+    <Showcase />
   </div>
 </template>
 
 <script>
-import { defineComponent } from "vue";
+import Showcase from "@/components/homepage/Showcase.vue";
 
-export default defineComponent({
-  name: "Home",
-});
+export default {
+  components: {
+    Showcase,
+  },
+};
 </script>

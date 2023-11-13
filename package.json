@@ -9,8 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@kyvg/vue3-notification": "^3.0.2",
     "@tailwindcss/line-clamp": "^0.4.4",
+    "feather-icons": "^4.29.1",
+    "nprogress": "^0.2.0",
     "vue": "^3.3.4",
+    "vue-feather": "^2.0.0",
+    "vue-meta": "^3.0.0-alpha.10",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
