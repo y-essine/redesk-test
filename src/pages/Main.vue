@@ -1,15 +1,14 @@
 <template>
-  <div class="flex justify-center">
-    <div class="w-[1280px] h-full flex py-5 2xs:px-8 relative">
+  <div class="flex flex-grow justify-center">
+    <div class="w-full h-full relative">
+      <Topbar v-once />
+      <Navbar v-once />
       <router-view />
     </div>
   </div>
 </template>
 
-<script>
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "Main",
-});
+<script setup>
+import Topbar from "@/components/Topbar.vue";
+import Navbar from "@/components/navbar/Navbar.vue";
 </script>

@@ -19,6 +19,10 @@ module.exports = {
         xs: '560px',
         '2xs': '425px'
       }
+    },
+    fontFamily: {
+      inter: ['Inter', 'sans-serif'],
+      bebas: ['Bebas Neue', 'sans-serif']
     }
   },
   plugins: [require('@tailwindcss/line-clamp')],

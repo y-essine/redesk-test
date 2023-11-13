@@ -1,6 +1,6 @@
 <template>
   <div class="w-full py-10 flex justify-center">
-    <span class="font-semibold">Home</span>
+    <span class="font-semibold">About</span>
   </div>
 </template>
 
